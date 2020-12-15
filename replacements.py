@@ -11,7 +11,9 @@ def variableReplace(app, docname, source):
 variable_replacements = {
     "{InstallationVersion}" : "3.7.0",
     "\{adminversion\}" : "3.7",
-    "\{userversion\}" : "3.7"
+    "\{userversion\}" : "3.7",
+    "\{admindocbaseurl\}" : "https://ikaneshiro.github.io/singularity-admindocs",
+    "\{userdocbaseurl\}" : "https://ikaneshiro.github.io/singularity-userdocs"
 }
 
 def setup(app):
